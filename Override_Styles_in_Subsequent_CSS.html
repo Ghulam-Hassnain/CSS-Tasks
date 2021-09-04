@@ -1,0 +1,35 @@
+<!-- Create an additional CSS class called blue-text that gives an element the color blue. Make sure it's below your pink-text class declaration. -->
+
+<!-- BEFORE -->
+
+<style>
+    body {
+        background-color: black;
+        font-family: monospace;
+        color: green;
+    }
+
+    .pink-text {
+        color: pink;
+    }
+</style>
+<h1 class="pink-text">Hello World!</h1>
+
+<!-- AFTER -->
+
+<style>
+    body {
+        background-color: black;
+        font-family: monospace;
+        color: green;
+    }
+
+    .pink-text {
+        color: pink;
+    }
+
+    .blue-text {
+        color: blue;
+    }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
